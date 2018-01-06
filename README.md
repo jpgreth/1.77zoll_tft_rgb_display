@@ -16,7 +16,7 @@ Das hier verwendete habe ich von https://shop.diy-dreams.de/collections/displays
 |LEDA (8) | 3.3V|
 
 
-LEDA kann auch an 5V betrieben werden, doch dann wird das Display sehr schnell sehr heiß - was ich nicht für optimal halte. Beim Betrieb mit 3.3V ist das Dispklay nur minimal dunkler und bleibt kalt.
+LEDA kann auch an 5V betrieben werden, doch dann wird das Display sehr schnell sehr heiß - was ich nicht für optimal halte. Beim Betrieb mit 3.3V ist das Display nur minimal dunkler und bleibt kalt.
 
 Bei der Initialisierung  des ST7735-Chips, muss beim AZ-Delivery 1.77" 160x128px RGB TFT als Wert "INITR_GREENTAB" gesetzt sein, ansonsten bekommt man Pixelfehler rechts und unten.
 Hinweis: https://github.com/adafruit/Adafruit-ST7735-Library/blob/master/examples/soft_spitftbitmap/soft_spitftbitmap.ino#L52 (Zeile 52-65)
